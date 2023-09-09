@@ -21,7 +21,15 @@ function generatePassword(){
   if (!includeLowercase && !includeUppercase && !includeNumeric && !includeSpecial) {
     alert("At least one character type must be selected.");
     return generatePassword();
- }
+    }
+    
+    return {
+      length,
+      includeLowercase,
+      includeUppercase,
+      includeNumeric,
+      includeSpecial
+  };
 }
 function writePassword() {
   var password = generatePassword();
