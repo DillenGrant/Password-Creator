@@ -11,6 +11,6 @@ with the increasing security risk out in the interwebs. its good to have a good 
 
 ## Visuals
 
-![main page](assets\images\main.JPG)
-![prompt](assets\images\prompt.JPG)
-![generated-password](assets\images\generated-password.JPG)
+![main page](\assets\images\main.JPG)
+![prompt](\assets\images\prompt.JPG)
+![generated-password](\assets\images\generated-password.JPG)
