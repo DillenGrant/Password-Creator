@@ -18,7 +18,7 @@ function getPassword(){
   var includeNumeric = confirm("Include numeric characters?");
   var includeSpecial = confirm("Include special characters?");
 
-  if (!includeLowercase || !includeUppercase || !includeNumeric || !includeSpecial) {
+  if (!includeLowercase && !includeUppercase && !includeNumeric && !includeSpecial) {
     alert("At least one character type must be selected.");
     return getPassword();
     }
